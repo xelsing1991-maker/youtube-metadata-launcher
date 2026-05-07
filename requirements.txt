@@ -1,0 +1,3 @@
+google-api-python-client>=2.0.0
+natasha>=1.6.0
+emoji>=2.12.0

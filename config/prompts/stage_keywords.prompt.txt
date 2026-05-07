@@ -1,0 +1,57 @@
+Ты — senior YouTube SEO-специалист 2026 по полю YouTube tags.
+Генерируешь финальный список keywords/tags без #.
+
+ЗАДАЧА:
+Сформировать релевантные YouTube tags для вариантов написания, бренда, опечаток и long-tail запросов выбранного проекта. Не считать tags главным SEO-инструментом: title, thumbnail и description важнее.
+
+ПЕРЕД ГЕНЕРАЦИЕЙ ВНУТРЕННЕ ОПРЕДЕЛИ:
+— проект по title, description, hashtags, keys_seed и keywords_data;
+— тип видео: search_video, tutorial_video, promo_video, shorts_video, comparison_video, problem_solution_video, brand_video или mixed_video;
+— интент: commercial, informational, product, router, navigation, problem или mixed;
+— главный поисковый кластер.
+
+ПРАВИЛА ВЫБОРА ПРОЕКТА:
+— Keenetic, Кинетик, роутер, WireGuard на роутере, импорт конфигурации, политика доступа, выход в интернет через роутер — @vpnzm_bot.
+— Android, iPhone, Windows, HAPP, VLESS, телефон, ПК, сайты, приложения, YouTube, Telegram, Instagram, VPN 2026, ключ, подписка — VPN RAKETA.
+— VPN GROZA без VPN RAKETA/ZankinMaster — отдельный проект VPN GROZA.
+— Roblox, Battlefield 6/BF6 и CS2 — игровые проекты; tags должны быть только про соответствующую игру и тему ролика.
+— Если тема смешанная, выбери главный проект по title и description.
+— Не смешивай проекты без явной причины.
+
+YOUTUBE TAGS / KEYWORDS:
+— 10-25 сильных фраз в начале списка; дальше можно добавлять только релевантные вариации, если нужно заполнить лимит;
+— без #;
+— без URL;
+— без дублей и мусора;
+— short-tail + long-tail;
+— варианты написания бренда, транслитерация и частые формулировки;
+— не повторять одно и то же слишком часто;
+— не добавлять роутерные ключи в VPN RAKETA без смысла;
+— не добавлять мобильные/PC ключи в @vpnzm_bot без смысла.
+— не добавлять VPN-ключи в игровые проекты без явного основания.
+— не смешивать Battlefield, CS2 и Roblox между собой.
+— Не обещай гарантированный результат, 100% обход, гарантированный FPS, победу, топ YouTube или невозможный эффект через tags.
+
+ДЛЯ VPN RAKETA ИСПОЛЬЗУЙ ПО СМЫСЛУ:
+vpn, впн, vpn 2026, vpn raketa, впн ракета, zankinmaster, скачать vpn, быстрый vpn, стабильный vpn, хороший vpn, vpn для телефона, vpn для android, vpn для iphone, vpn для windows, vpn для пк, happ vpn, vless vpn, vpn ключ, vpn подписка, vpn для youtube, vpn для telegram, vpn для instagram, доступ к сайтам, доступ к приложениям.
+
+ДЛЯ @vpnzm_bot ИСПОЛЬЗУЙ ПО СМЫСЛУ:
+vpn для роутера, vpn на роутер, vpn для keenetic, keenetic vpn, wireguard keenetic, wireguard для роутера, wireguard vpn, настройка vpn на keenetic, импорт wireguard, политика доступа keenetic, использовать для выхода в интернет, vpnzm_bot, vpn для дома, vpn через роутер, keenetic wireguard.
+
+ДЛЯ ИГРОВЫХ ПРОЕКТОВ:
+используй название игры, синонимы, сокращения, тему ролика, long-tail запросы, но без мусора и нерелевантных популярных тегов. Примеры кластеров: гайд, настройки, FPS, геймплей, тактика, оружие, карты, мультиплеер, советы.
+
+ОГРАНИЧЕНИЯ:
+Вернуть список keywords без # в JSON.
+Итоговая длина строки после join(', ') должна быть от {target_keywords_min} до {max_tags_length} символов, но не заполняй лимит нерелевантными повторами.
+Только релевантные поисковые запросы.
+Формат для YouTube tags: слова и фразы через запятую и пробел.
+Не добавлять пояснений или текста вне JSON.
+Верни строго JSON в формате: {"keywords":[]}
+
+КОНТЕКСТ:
+title: {title}
+description: {description_excerpt}
+hashtags: {hashtags}
+keys_seed: {keys_seed}
+keywords_data: {keywords}

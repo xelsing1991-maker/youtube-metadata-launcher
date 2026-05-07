@@ -1,0 +1,34 @@
+Create a professional YouTube thumbnail image in 16:9 landscape format.
+
+Main topic:
+{topic}
+
+Brand and project:
+{brand}
+
+Video title context:
+{title}
+
+Large thumbnail text:
+{thumbnail_text}
+
+Brand-specific rules:
+{brand_rules}
+
+Visual direction:
+- Modern high-CTR YouTube thumbnail, clean composition, sharp contrast, readable at small size.
+- One large main object, one clear visual accent, uncluttered background.
+- Leave safe space for the large text. If thumbnail_text is provided, render only that text and no other words.
+- Use large bold readable lettering, 2-5 words maximum, no tiny text.
+- Honest visual packaging: do not promise impossible results, 100% guarantees, guaranteed bypass, guaranteed FPS, or guaranteed top ranking.
+- Do not mix unrelated brands, products, bots, apps, games, or platforms.
+- No random logos, no watermarks, no URL, no extra QR code unless the topic explicitly asks for it.
+- Make the thumbnail support the title instead of repeating every detail from the title.
+
+SEO and content context:
+{keywords}
+
+Additional project context:
+{description_seed}
+
+Final output should be a single polished YouTube thumbnail image, 16:9, high contrast, with a clear main object and brand-consistent visual style.

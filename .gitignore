@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Authorization and API credentials
+credentials/
+client_secret*.json
+credentials*.json
+token*.json
+*.pem
+*.key
+
+# Generated artifacts and local run history
+generated_previews/
+history_reports/
+report.json
+report.md
+qa_*.json
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

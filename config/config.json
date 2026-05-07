@@ -1,0 +1,72 @@
+{
+  "paths": {
+    "data_folder": "../data",
+    "titles_file": "../data/titles.txt",
+    "keywords_file": "../data/keywords.txt",
+    "hashtags_file": "../data/hashtags.txt",
+    "description_file": "../data/description.txt",
+    "credentials_folder": "../credentials",
+    "client_secret_file": "../credentials/client_secret.json",
+    "credentials_file": "../credentials/credentials.json"
+  },
+  "youtube": {
+    "max_title_length": 120,
+    "max_description_length": 3000,
+    "max_tags_length": 500
+  },
+  "image_generation": {
+    "model": "gpt-image-1",
+    "size": "1536x1024",
+    "quality": "medium",
+    "output_dir": "generated_previews",
+    "prompt_file": "stage_thumbnail_image.prompt.txt",
+    "timeout": 180
+  },
+  "metadata": {
+    "referral_link": "@t.me/VPN_Raketa_bot?start=ZankinMaster (2 ДНЯ БЕСПЛАТНО!)",
+    "emojis": [],
+    "scopes": [
+      "https://www.googleapis.com/auth/youtube.force-ssl"
+    ]
+  },
+  "llm": {
+    "enabled": true,
+    "provider": "openai",
+    "model_name": "gpt-4o-mini",
+    "openai_model_name": "gpt-4o-mini",
+    "openai_base_url": "https://api.openai.com/v1",
+    "openai_api_key": "",
+    "fallback_model_name": "",
+    "disable_primary_on_first_failure": false,
+    "ollama_url": "http://127.0.0.1:11434",
+    "prompts_dir": "config/prompts",
+    "stage_title_prompt_file": "stage_title.prompt.txt",
+    "stage_description_prompt_file": "stage_description.prompt.txt",
+    "stage_hashtags_keys_prompt_file": "stage_hashtags_keys.prompt.txt",
+    "stage_keywords_prompt_file": "stage_keywords.prompt.txt",
+    "execution_mode": "gpu",
+    "num_gpu": -1,
+    "num_thread": 12,
+    "think": false,
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "repeat_penalty": 1.08,
+    "num_predict": 2200,
+    "num_ctx": 8192,
+    "timeout": 180,
+    "max_attempts": 6,
+    "stage_title_max_attempts": 3,
+    "stage_description_max_attempts": 3,
+    "stage_hashtags_keys_max_attempts": 2,
+    "stage_keywords_max_attempts": 2,
+    "stage_keywords_use_model": true,
+    "target_description_min": 1700,
+    "target_tags_min": 490,
+    "target_keywords_min": 490,
+    "target_keywords_desired": 500,
+    "stage_title_num_predict": 180,
+    "stage_description_num_predict": 2200,
+    "stage_hashtags_keys_num_predict": 450,
+    "stage_keywords_num_predict": 700
+  }
+}
